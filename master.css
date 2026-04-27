@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+/* LOGIN SMALLER BOX */
+.login-box {
+  width: 260px;
+  margin: 80px auto;
+  padding: 18px;
+  background: #1e293b;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px;
+  margin-top: 8px;
+  width: 95%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #3b82f6;
+  color: white;
+}
+
+/* DASHBOARD NEW LAYOUT */
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #1e293b;
+  padding: 15px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 8px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.main {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.topbar {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.card {
+  flex: 1;
+  background: #1e293b;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.chart-box {
+  margin-top: 20px;
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* LIGHT MODE */
+body.light {
+  background: #f1f5f9;
+  color: #111;
+}
+
+body.light .login-box,
+body.light .card,
+body.light .sidebar,
+body.light .topbar,
+body.light .chart-box {
+  background: white;
+  color: black;
+}
